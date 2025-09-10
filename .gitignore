@@ -205,3 +205,24 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+###  NODE.JS & VISUAL STUDIO CODE ###
+
+# Node.js
+# Mappen för installerade beroenden.
+node_modules/
+
+# Vercel Serverless Functions
+# Temporära kataloger som skapas av Vercel CLI
+.vercel/
+
+# Känsliga miljövariabler för Node.js-projekt
+.env.local
+
+# Visual Studio Code
+# VS Code-inställningar, till exempel för arbetsyta och tillägg.
+.vscode/
+
+# Övriga filer som du inte vill ladda upp
+.DS_Store # macOS
+Thumbs.db # Windows
