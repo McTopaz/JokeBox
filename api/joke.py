@@ -1,6 +1,8 @@
 from http.server import BaseHTTPRequestHandler
 import json
 
+# https://jokebox-k1s6it1az-mctopazs-projects.vercel.app/api/joke
+
 class handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
